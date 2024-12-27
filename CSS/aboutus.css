@@ -1,0 +1,289 @@
+#about1{
+    color: rgb(254, 253, 253);
+}
+
+.about{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   /*  background-color: red; */
+    padding: 2rem;
+}
+
+.about1{
+    content: '';
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: -1;
+}
+
+.red{
+    content: '';
+    height: 6rem;
+    position: absolute;
+   /*  background:red; */
+    margin-left: 35rem;
+    top: 0rem;
+    z-index: 3;
+}
+
+path{
+    fill: transparent;
+    stroke: rgb(250, 250, 250);
+    stroke-width: 5;
+    stroke-dasharray: 480;
+    stroke-dashoffset: 480;    
+}
+
+.the{
+    content: '';
+    width: fit-content;
+    /* background-color: red; */
+    position: absolute;
+    top: 50rem;
+    left: 31rem;
+    z-index: 3;
+}
+
+.thebefore{
+        content: '';
+        width:14rem;
+        height: 14rem;
+        /* background-color: red; */
+        position: absolute;
+        top: 50rem;
+        left: 17rem;
+        z-index: 3;
+}
+
+.wiiings{
+        content: '';
+        width: 98vw;
+        height:fit-content;
+        position: absolute;
+        /* background-color: red; */
+        overflow: hidden;
+        text-align: center;
+        font-family: fantasy;
+        color: transparent;
+        -webkit-text-stroke: 2PX;
+        -webkit-text-stroke-color: rgba(254, 150, 115, 0.541);
+        top: 37rem;
+}
+
+#info{
+    content: '';
+    width: calc(100% - 12rem);
+    height: 0vh;
+    position: relative;
+    overflow: hidden;
+    /* background-color: red; */
+    top: 61rem;
+    margin-left: 6rem;
+    border: 5px double white;
+    border-radius: 2rem;
+    z-index: 2;
+    padding: 4rem;
+    padding-top: 0rem;
+}
+
+
+.abhero2{
+    content: '';
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+
+.abhero3{
+    content: '';
+    height: 100%;
+    width: 100%;
+  /*   background-color: aqua; */
+}
+
+
+.abhero4{
+    content: '';
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#bus{
+    content: '';
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    /* background-color: red; */
+    top: 50vh;
+    left: 6vw;
+    background-image: url(../images/aboutus/bus.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+#wakeup{
+    content: '';
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    /* background-color: red; */
+    top: 25vh;
+    right: 6vw;
+    background-image: url(../images/aboutus/wakeup.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#liveon{
+    content: '';
+    width: 30%;
+    height: 60%;
+    position: absolute;
+   /*  background-color: red; */
+    top: 25vh;
+    left: 6vw;
+    background-image: url(../images/aboutus/live\ on.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.content{
+    content: '';
+    width: 85%;
+    height: 80%;
+    /* background-color: red; */
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.abhero2heading{
+    content: '';
+    height: 6rem;
+    width: 60%;
+    position: absolute;
+   /*  background-color: aquamarine; */
+    top: 6rem;
+    left: 7rem;
+}
+
+.abhero2info{
+        content: '';
+        height: 20rem;
+        width: 70%;
+        position: absolute;
+       /*  background-color: aquamarine; */
+        top:16rem;
+        right: 7rem;
+}
+
+.abh1{
+  font-size: 4rem;
+  font-family: fantasy;
+}
+
+.abh2{
+    font-size: 2.5rem;
+    font-family: fantasy;
+  }
+
+.abp1{
+ font-size: 1.65rem;
+ font-family:sans-serif;
+ font-weight: 100;
+ color: rgba(125, 124, 124, 0.829);
+}
+
+.abhero4heading{
+    content: '';
+    height: 6rem;
+    width: 60%;
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 6rem;
+    left: 7rem;
+}
+
+.abhero4info{
+        content: '';
+        height: 25rem;
+        width: 60%;
+        position: absolute;
+        /* background-color: aquamarine; */
+        top:16rem;
+        right: 5rem;
+}
+
+.abhero3heading{
+    content: '';
+    height: 6rem;
+    width: 70%;
+    position: absolute;
+   /*  background-color: aquamarine; */
+    top: 6rem;
+    right: 9rem;
+}
+
+.abhero3info{
+        content: '';
+        height: 25rem;
+        width: 60%;
+        position: absolute;
+       /*  background-color: aquamarine; */
+        top:15rem;
+        left: 5rem;
+}
+
+.abh1 span{
+    color: orange;
+}
+
+.abh2 span{
+    color: orange;
+}
+
+
+.abhero5heading{
+    content: '';
+    height: 6rem;
+    width: 75%;
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 6rem;
+    right: 10rem;
+}
+
+.abherologo{
+    content: '';
+        height: 25rem;
+        width: 15rem;
+        position: absolute;
+        /* background-color: aquamarine; */
+        top:9rem;
+        left: 40rem;
+        background-image: url(../images/aboutus/recycle.webp);
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+
+.ablogoinfo{
+    position: absolute;
+    width: 80%;
+    top: 28rem;
+    left: 8rem;
+    text-align: center;
+}
